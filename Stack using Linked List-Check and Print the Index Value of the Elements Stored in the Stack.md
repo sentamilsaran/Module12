@@ -32,7 +32,19 @@ To write a Python program that:
 
 ## 📝 Program
 Add Code here
+stack = []
 
+stack.append('a')
+stack.append('b')
+stack.append('c')
+
+print('Initial stack: ' + str(stack))
+
+for i in range(len(stack)):
+    print(i, end=" ")
+    print(stack[i])
 ## Sample Input & Output
+<img width="686" height="166" alt="image" src="https://github.com/user-attachments/assets/990f10ec-9402-437a-b61b-04da77c50ef0" />
 
 ## Result
+Thus the output is verified.
